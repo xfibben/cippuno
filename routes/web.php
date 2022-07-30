@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ColegiadoController;
 use App\Http\Controllers\PagoController;
 use App\Http\Controllers\TramiteController; 
+use App\Http\Controllers\OficinaController; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,7 +41,7 @@ Route::group(['middleware'=>['auth']],function (){
     Route::get('/tramites.oficinas', function () {
         return view('tramites.oficinas'); //REQUISITOS DE TRAMITES.
     })->name('tramites.oficinas');
-    Route::get('/tramites.oficinas', [TramiteController::class,'ofic'])->name('tramites.oficinas');
+    Route::get('/tramites.creacionoficina', [OficinaController::class,'create'])->name('tramites.creacionoficina');
 
 
     //RUTAS PARA CERTIFICADOS

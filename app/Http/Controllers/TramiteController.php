@@ -37,12 +37,7 @@ class TramiteController extends Controller
 
     public function ofic()
     {
-        $users = User::all();
-        $colegiados = Colegiado::all();
-        $pagos = Pago::all();
-        $tramites = Tramite::all();
-        $oficinas = Oficina::all();
-        return view('tramites.oficinas', compact('pagos','colegiados','users','tramites','oficinas'));
+       
     }
     public function store(Request $request)
     {
@@ -76,7 +71,7 @@ class TramiteController extends Controller
         $colegiados = Colegiado::all();
         $pagos = Pago::all();
         $tramites = Tramite::all();
-        return view('tramites.mostrar', compact('pagos','colegiados','users','tramites'));
+        return view('tramites/mostrar', compact('pagos','colegiados','users','tramites'));
      //   $tramites->tipo_tramite_id = $request->get('tipo_tramite_id');
      //   $tramites->asunto = $request->get('asunto');
       //  $tramites->fecha_emi = $request->get('fecha_emi');

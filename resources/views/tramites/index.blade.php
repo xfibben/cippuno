@@ -30,6 +30,20 @@
         
       </div>
       <div class="col">
+        <div class="col">
+          <a href="tramites/creacionoficina">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-red rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Crear oficina</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col">
         <a href="tramites.mostrar">
           <div class="card card-cover h-100 overflow-hidden text-white bg-yellow rounded-4 shadow-lg" >
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">

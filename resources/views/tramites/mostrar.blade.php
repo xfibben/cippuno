@@ -60,7 +60,7 @@
                       </tr>
                       <tr>
                         <td>Dni:</td>
-                        <td><input type="text"  name="dni" value="{{ $colegiado->dni }}" ></td>
+                        <td><input type="text"  name="dni" value="{{ $colegiado->dni}}" ></td>
                       </tr>
 
 
